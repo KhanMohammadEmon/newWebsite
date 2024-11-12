@@ -6,101 +6,211 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Emon Khan | personal website</title>
+    <link rel="icon" href="images/fev.png" type="images/png">
+
+
+     <!-- SEO meta tags for keywords and description -->
+     <meta name="description" content="Emon Khan's personal website showcasing projects, portfolio, and blog. Learn about my work in computer science, engineering, and deep learning.">
+     <meta name="keywords" content="Emon Khan,Emon,Emon uiu,uiu emon,emon,khan mohammad emon,KHANMOHAMMADEMON, personal website, portfolio, computer science, deep learning, engineering, web development, machine learning, personal blog">
+    
+     <title>Emon Khan | Personal Website</title>
 </head>
 <body>
+    <!-- Navigation Bar -->
     <div class="bar1">
-       <a  target="-blank" href="https://khanmohammademon.github.io/newWebsite/"><img src="images/Logo.png" alt="" style="height: 60px;width: 70px;"> </a>      
+       <a target="_blank" href="https://khanmohammademon.github.io/newWebsite/">
+           <img src="images/Logo.png" alt="Logo" style="height: 60px; width: 70px;">
+       </a>      
     </div>
-    
     <div class="bar">
-        
         <ul>
-            <li class="w3-bar-item w3-hover-red">About</li>
-            <li class="w3-bar-item w3-hover-green">Work</li>
-            <li class="w3-bar-item w3-hover-blue">Portfolio</li>
-            <li class="w3-bar-item w3-hover-yellow">Contact</li>
+            <li class="w3-bar-item w3-hover-red"><a href="#about" style="text-decoration: none; color: inherit;">About</a></li>
+            <li class="w3-bar-item w3-hover-blue"><a href="#experience" style="text-decoration: none; color: inherit;">Experience</a></li>
+            <li class="w3-bar-item w3-hover-green"><a href="#publication" style="text-decoration: none; color: inherit;">Publication</a></li>
+            <li class="w3-bar-item w3-hover-yellow"><a href="#education" style="text-decoration: none; color: inherit;">Education</a></li>
+            <li class="w3-bar-item w3-hover-purple"><a href="#skills" style="text-decoration: none; color: inherit;">Skills</a></li>
+            <li class="w3-bar-item w3-hover-orange"><a href="#projects" style="text-decoration: none; color: inherit;">Projects</a></li>
+            <li class="w3-bar-item w3-hover-cyan"><a href="#contacts" style="text-decoration: none; color: inherit;">Contact</a></li>
         </ul>
-
-      
     </div>
 
-<!--profile Section Here  -->
-
-    <section class="profile">
+    <!-- Profile Section -->
+    <section class="profile" id="about">
         <div class="half-width">
-            <h1><span class="highlight1">HELLO, I AM</span><BR><span class="highlight2">Khan Mohammad Emon</span></h1>
-            <p> I am a student of computer science and engineering at United International University  </p>  
-            <a class="on-click" target="-blank" href="https://github.com/KhanMohammadEmon">HIRE ME</a>  
+            <h1><span class="highlight1">HELLO, I AM</span><br><span class="highlight2">Khan Mohammad Emon</span></h1>
+            <p>Hello, I am Khan Mohammad Emon. I graduated in Computer Science and Engineering from United International University. My undergraduate thesis project included medical image analysis using deep learning models, which enriched my understanding of Machine Learning and Digital Image Processing. I have further developed my skills in software development and problem-solving through academic projects. My research interests include Machine Learning, Data Mining, and Deep Learning. I am excited to contribute to the field of Computer Science and Engineering.</p>
+            <a class="on-click" target="_blank" href="images/resume.pdf" download="KhanMohammadEmon's_CV.pdf">DOWNLOAD CV</a>
+
         </div>
         <div class="half-width">
-            <img src="images/pic1.png" alt="">
+            <img src="images/IMG.jpg" alt="Profile Picture">
         </div>
     </section>
 
-
-     <!-- About -->
-     <section class="about">
+    <!-- About Section (Experience) -->
+    <section class="about"id="experience">
         <div class="half-width">
-            <img src="images/pic2.png" alt="">
+            <img src="images/new_img.JPEG" alt="Experience Image" class="round-image">
         </div>
         <div class="half-width">
-            <h2>ABOUT</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>  
-            <a class="on-click" target="-blank"href="https://www.linkedin.com/in/emon-201394/"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>   DOWNLOAD RESUME</a>  
+            <h2> <span class="highlight2">Experience</span></h2>
+
+            <div class="experience-item">
+                <div class="position">
+                    <span>Grader</span>
+                    <span class="date">Nov 2022 – Jan 2024</span>
+                </div>
+                <div class="company">United International University, Dhaka</div>
+                <ul class="courses">
+                    <li>CSE 3521: Database Management Systems - Fall 22</li>
+                    <li>IPE 3401: Industrial and Operational Management - Fall 23</li>
+                    <li>MATH 1151: Fundamental Calculus - Fall 23</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="position">
+                    <span>Joint General Secretary</span>
+                    <span class="date">Aug 2022 – Mar 2023</span>
+                </div>
+                <div class="company">UIU App Forum, Dhaka</div>
+            </div>
+
+            <!-- <a class="on-click" target="_blank" href="images/resume.pdf" download="Resume_Khan_Mohammad_Emon.pdf">DOWNLOAD RESUME</a> -->
+
         </div> 
     </section>
 
-     <!--Show some project -->
-     <section class="project-area">
-        <h2>
-            <br>
-            <br>
-            <span class="highlight2">LATEST</span><span class="highlight1"> WORKING PROJECT</span>
-         </h2>
-        <div class="one-third-width">
-            <img src="images/project1.png" alt="">
-            <h3>Power-x-gym(gym wbsite)</h3>
-            <p>This is a master class gym. Our sevices is the on of the best in this country.</p>
+    <!-- Publication Section -->
+    <section class="publication" id="publication">
+        <h2><span class="highlight2">PUBLICATION</span></h2>
+        <p>Khan Mohammad Emon, Golam Kibria, Md. Shakhan, Bushra Jannat Fahim Hafiz, Riasat Azim.<br>
+        "ENRRN-AU-Net: A Hybrid Deep Learning Model to Classify and Segment Histopathology Images of Breast Cancer", <i>2024 International Conference on Advances in Computing, Communication, Electrical, and Smart Systems (iACCESS)</i> <a href="https://ieeexplore.ieee.org/abstract/document/10499623/" target="_blank">[Paper Link]</a></p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id ="education">
+        <h2><span class="highlight2">EDUCATION</span></h2>
+        <div>
+            <h3>Bachelor of Science in Computer Science & Engineering [BSCSE]</h3>
+            <p>Institute: United International University, Dhaka</p>
+            <p>Result: CGPA 3.55/4.00</p>
+            <p>Thesis: Integrating X-ray Image Analysis with Clinical Expertise to Create a Hybrid Approach for Classifying and Assessing the Severity of Lung Diseases</p>
+            <p>Feb 2020 - Oct 2024</p>
         </div>
-        <div class="one-third-width">
-            <img src="images/project2 .png" alt="">
-            <h3>Travel Agency</h3>
-            <p>Travel is the best entertain way in the whole world. So travel now.</p>
+        <div>
+            <h3>Higher Secondary Certificate</h3>
+            <p>Institute: Uttara Model College, Dhaka</p>
+            <p>Result: GPA 4.50/5.00</p>
+            <p>June 2026 - June 2019</p>
         </div>
-        <div class="one-third-width">
-            <img src="images/project3.png" alt="">
-            <h3>Hard Rock Music</h3>
-            <p>Music the harmony of body and soul. Music makes happy everyone.</p>
+        <div>
+            <h3>Secondary School Certificate</h3>
+            <p>Institute: Bhanga Model Pilot High School, Faridpur</p>
+            <p>Result: GPA 4.68/5.00</p>
+            <p>Jan 2012 - May 2017</p>
         </div>
     </section>
 
-     <!-- Footer -->
-     
-   <footer class="footer">
-    <div class="inquiry-box"> 
-       <ul> 
-        <li><h2>WORK INQUIRY</h2></li>
-        <li><a class="on-click" target="-blank" href="https://www.facebook.com/ek201394">Let's chat</a></li>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2><span class="highlight2">SKILLS</span></h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> JavaScript, PHP, Python, Java, C/C++, HTML, CSS, Bash Script</li>
+            <li><strong>Databases:</strong> MySQL</li>
+            <li><strong>Deep Learning Frameworks:</strong> Keras, PyTorch</li>
+            <li><strong>Concepts:</strong> Object Oriented Programming, Data Structures, Algorithms, DBMS, Web Development</li>
+            <li><strong>Others:</strong> Xampp, Git & GitHub, LaTeX, Jira, etc.</li>
+            <li><strong>Design Tools:</strong> Proteus circuit simulator, Logisim circuit simulator, and CISCO packet tracer</li>
+            <li><strong>Hardware Tools:</strong> Atmega32 Microcontroller</li>
         </ul>
+    </section>
+
+
+    <!-- Academic Projects Section -->
+<section id="projects" class="project-area">
+    <h2> <span class="highlight2"> Academic Projects </span></h2>
+    <div class="project-container">
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h3>SecureCounsel-UIIServiceHub {Computer Security Course Project}</h3>
+            <p><strong>Tools used:</strong> Bootstrap, HTML, CSS, PHP, MySQL, JavaScript.</p>
+            <p>This project is fortified with enhanced security features, including real-time alerts for suspicious activity, intrusion detection, and DoS attack prevention. It also integrates multi-factor authentication, SQL injection protection, and data masking, ensuring robust data security and access control.</p>
+            <a href="https://github.com/KhanMohammadEmon/SecureCounsel_UIUServiceHub" target="_blank">GitHub Link</a>
         </div>
-    </div>
-    <div class="social-links">
-        <div class="mail-id">
-         <p>STAY CONNECTED</p>
-         <h3>hello@emonkhan.com</h3>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h3>UIUServiceHub {Software Architecture Laboratory Project}</h3>
+            <p><strong>Tools used:</strong> Bootstrap, HTML, CSS, PHP, MySQL, JavaScript.</p>
+            <p>The UIUServiceHub project aims to consolidate various university services, including Hostel Service, Shuttle Service Registration, Student Loans, Club Forum Discussion, and Posts, into a single, efficient platform for UIU students.</p>
+            <a href="https://github.com/KhanMohammadEmon/uiuservicehub" target="_blank">GitHub Link</a>
         </div>
 
-    <div class="icon-images">
-        <img class="fa" src="images/icon1.png" alt="">
-        <img class="fa" src="images/icon2.png" alt="">
-        <img class="fa" src="images/instagram.png" alt="">
+        <!-- Project 3 -->
+        <div class="project-card">
+            <h3>CV-HUB {Web Programming Course Project}</h3>
+            <p><strong>Tools used:</strong> Bootstrap, HTML, CSS, PHP, MySQL.</p>
+            <p>Users can dynamically generate a CV, save it, and easily update or modify their information for quick adjustments anytime.</p>
+            <a href="https://github.com/KhanMohammadEmon/CV-HUB" target="_blank">GitHub Link</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+            <h3>UIU NewsBOX {Database Management System Laboratory Project}</h3>
+            <p><strong>Tools used:</strong> Bootstrap, HTML, CSS, PHP, MySQL.</p>
+            <p>This is a blog-style website where users can create, share, and update their content dynamically.</p>
+            <a href="https://github.com/KhanMohammadEmon/CV-HUB" target="_blank">GitHub Link</a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+            <h3>ADDA {Advanced Object Oriented Programming Laboratory Project}</h3>
+            <p><strong>Tools used:</strong> MySQL Database, Socket Networking, Java FX Framework</p>
+            <p>
+                Features:
+                <ul>
+                    <li>Login (username and password)</li>
+                    <li>Create a new account</li>
+                    <li>Reset the password</li>
+                    <li>Logout button or text Bye</li>
+                    <li>Add a new profile picture from the desktop</li>
+                    <li>Delete the account permanently (needs Password)</li>
+                </ul>
+            </p>
+            <a href="https://github.com/KhanMohammadEmon/Adda" target="_blank">GitHub Link</a>
+        </div>
+
     </div>
-    </div>
-</footer>
+</section>
 
 
 
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+        <div class="inquiry-box">
+            <ul>
+                <li><h2>WORK INQUIRY</h2></li>
+                <li><a class="on-click" target="_blank" href="https://www.facebook.com/ek201394">Let's Chat</a></li>
+              
+            </ul>
+        </div>
+        <div class="social-links">
+            <div class="mail-id">
+                <p>STAY CONNECTED</p>
+                <h3><a href="mailto:kemon201394@gmail.com" style="text-decoration: none; color: inherit;">kemon201394@gmail.com</a></h3>
+            </div>
+            
+            <div class="icon-images">
+                <a  href="https://api.whatsapp.com/qr/XGMLB7TMTJZOL1"><img class="fa" src="images/social.png" alt="Social Icon 1"></a>
+                <a  href="https://www.facebook.com/ek201394"><img class="fa" src="images/facebook.png" alt="Social Icon 2"></a>
+                <a  href="https://www.instagram.com/emon_766/"><img class="fa" src="images/linkedin.png" alt="Social Icon 3"> </a>
+                <a  href="https://github.com/KHANMOHAMMADEMON"><img class="fa" src="images/github.png" alt="Instagram Icon"> </a>
+                <a  href="https://www.linkedin.com/in/emon-201394/"><img class="fa" src="images/instagram.png" alt="Instagram Icon"> </a>
 
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
