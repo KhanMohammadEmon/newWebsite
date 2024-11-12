@@ -409,6 +409,8 @@ section {
     object-fit: cover;
     object-position: top;
     width: 600px !important; 
+    /* width: 600px !important;  */
+
 }
 
 
