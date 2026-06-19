@@ -436,6 +436,7 @@ section {
 }
 
 .portfolio-banner {
+    clear: both;
     background: linear-gradient(135deg, #0f172a, #2563eb);
     padding: 20px;
     margin: 20px auto;
